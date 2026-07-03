@@ -113,8 +113,6 @@ I also create **3D animation, motion graphics, and visual storytelling** with to
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=20&duration=1800&pause=500&color=00FFB2&center=true&vCenter=true&width=900&lines=Designing+interfaces+that+feel+fast+and+focused;Building+APIs+that+stay+clear+under+pressure;Turning+motion+design+ideas+into+interactive+systems;Learning+deeply%2C+shipping+carefully%2C+improving+daily" alt="Animated build focus typing line" />
 
-<br/><br/>
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanvirKhan77&bg_color=020617&color=00f5ff&line=ff00e5&point=00ffb2&area=true&hide_border=true&custom_title=Live%20Contribution%20Signal" width="100%" alt="Animated GitHub activity graph" />
 
 </div>
