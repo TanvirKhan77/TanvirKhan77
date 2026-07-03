@@ -264,8 +264,6 @@ Promotional videos, 3D animations, social media content, artist branding, album 
 
 ## `> 3D.CONTRIBUTION.MATRIX`
 
-<br/><br/>
-
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Neon 3D GitHub contribution graph" />
 
 </div>
