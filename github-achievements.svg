@@ -101,8 +101,8 @@
 
   <text x="430" y="160" fill="#7DF9FF" class="mono label">GitHub Achievement</text>
   <text x="430" y="195" fill="#E0F2FE" class="mono title">YOLO</text>
-  <text x="430" y="225" fill="#BAE6FD" class="mono copy">One achievement is visible on the profile, so this local card renders it directly.</text>
-  <text x="430" y="250" fill="#93C5FD" class="mono copy">No third-party trophy service required. No broken image fallback.</text>
+  <!-- <text x="430" y="225" fill="#BAE6FD" class="mono copy">One achievement is visible on the profile, so this local card renders it directly.</text>
+  <text x="430" y="250" fill="#93C5FD" class="mono copy">No third-party trophy service required. No broken image fallback.</text> -->
 
   <rect x="890" y="144" width="118" height="44" rx="14" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.18"/>
   <text x="949" y="172" text-anchor="middle" fill="#00FFB2" class="mono label">1 / 1</text>
