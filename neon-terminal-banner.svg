@@ -1,0 +1,88 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#17122F"/>
+      <stop offset="45%" stop-color="#070A18"/>
+      <stop offset="100%" stop-color="#02030A"/>
+    </radialGradient>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="30%" stop-color="#00FFB2"/>
+      <stop offset="65%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#FF00E5"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#00F5FF" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .title { font-size: 58px; font-weight: 800; letter-spacing: 2px; }
+      .subtitle { font-size: 23px; font-weight: 600; letter-spacing: 1px; }
+      .mini { font-size: 16px; letter-spacing: 2px; }
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        45% { opacity: .78; }
+        52% { opacity: 1; }
+        60% { opacity: .88; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(-80px); opacity: 0; }
+        20% { opacity: .7; }
+        100% { transform: translateY(420px); opacity: 0; }
+      }
+      .flicker { animation: flicker 2.8s infinite; }
+      .scanline { animation: scan 4s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <path d="M0 300 C180 240 330 350 520 275 C700 205 870 300 1200 210" stroke="#00F5FF" stroke-opacity="0.35" stroke-width="2" filter="url(#softGlow)"/>
+  <path d="M0 95 C230 165 380 50 600 115 C820 180 980 65 1200 130" stroke="#FF00E5" stroke-opacity="0.28" stroke-width="2" filter="url(#softGlow)"/>
+
+  <g opacity="0.35">
+    <circle cx="135" cy="95" r="4" fill="#00F5FF" filter="url(#glow)"/>
+    <circle cx="1020" cy="255" r="4" fill="#FF00E5" filter="url(#glow)"/>
+    <circle cx="975" cy="95" r="3" fill="#00FFB2" filter="url(#glow)"/>
+    <circle cx="260" cy="270" r="3" fill="#A855F7" filter="url(#glow)"/>
+  </g>
+
+  <rect x="85" y="62" width="1030" height="238" rx="24" fill="#030712" fill-opacity="0.72" stroke="url(#neon)" stroke-width="2" filter="url(#softGlow)"/>
+  <rect class="scanline" x="85" y="62" width="1030" height="40" fill="#00F5FF" fill-opacity="0.08"/>
+
+  <text x="600" y="122" text-anchor="middle" fill="#7DF9FF" class="mono mini flicker" filter="url(#glow)">
+    &gt; INITIALIZING DEVELOPER PROFILE // ACCESS GRANTED
+  </text>
+
+  <text x="600" y="187" text-anchor="middle" fill="url(#neon)" class="mono title flicker" filter="url(#glow)">
+    TANVIR AHMED KHAN
+  </text>
+
+  <text x="600" y="235" text-anchor="middle" fill="#D8F3FF" class="mono subtitle" filter="url(#glow)">
+    FULL-STACK DEVELOPER • BACKEND LEARNER • 3D MOTION DESIGNER
+  </text>
+
+  <text x="600" y="270" text-anchor="middle" fill="#00FFB2" class="mono mini" filter="url(#glow)">
+    FLUTTER | REACT | TYPESCRIPT | FIREBASE | SUPABASE | SPRING BOOT | BLENDER
+  </text>
+</svg>
