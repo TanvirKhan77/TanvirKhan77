@@ -83,7 +83,7 @@ motto: "Code clean. Design bold. Ship with purpose."
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=TanvirKhan77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=00F5FF&icon_color=FF00E5&text_color=E2E8F0&ring_color=00F5FF" alt="GitHub profile stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TanvirKhan77&theme=tokyonight" alt="GitHub profile stats" />
 
 </div>
 
@@ -249,8 +249,13 @@ Promotional videos, 3D animations, social media content, artist branding, album 
 
 <br/>
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=TanvirKhan77&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=00F5FF&icon_color=FF00E5&text_color=E2E8F0" alt="GitHub stats card" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanvirKhan77&layout=compact&theme=tokyonight&hide_border=true&bg_color=020617&title_color=00F5FF&text_color=E2E8F0" alt="Top languages card" />
+<img height="175" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TanvirKhan77&theme=tokyonight" alt="GitHub stats card" />
+<img height="175" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TanvirKhan77&theme=tokyonight" alt="Repository language stats card" />
+<img height="175" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TanvirKhan77&theme=tokyonight" alt="Most committed language card" />
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TanvirKhan77&theme=tokyonight" width="100%" alt="GitHub profile summary details" />
 
 <br/><br/>
 
