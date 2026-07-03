@@ -49,16 +49,23 @@
         20% { opacity: .7; }
         100% { transform: translateY(420px); opacity: 0; }
       }
+      @keyframes drift {
+        0%, 100% { transform: translateX(-24px); opacity: .22; }
+        50% { transform: translateX(24px); opacity: .42; }
+      }
       .flicker { animation: flicker 2.8s infinite; }
       .scanline { animation: scan 4s linear infinite; }
+      .drift { animation: drift 6s ease-in-out infinite; }
     </style>
   </defs>
 
   <rect width="1200" height="360" fill="url(#bg)"/>
   <rect width="1200" height="360" fill="url(#grid)"/>
 
-  <path d="M0 300 C180 240 330 350 520 275 C700 205 870 300 1200 210" stroke="#00F5FF" stroke-opacity="0.35" stroke-width="2" filter="url(#softGlow)"/>
-  <path d="M0 95 C230 165 380 50 600 115 C820 180 980 65 1200 130" stroke="#FF00E5" stroke-opacity="0.28" stroke-width="2" filter="url(#softGlow)"/>
+  <g class="drift">
+    <path d="M0 300 C180 240 330 350 520 275 C700 205 870 300 1200 210" stroke="#00F5FF" stroke-opacity="0.35" stroke-width="2" filter="url(#softGlow)"/>
+    <path d="M0 95 C230 165 380 50 600 115 C820 180 980 65 1200 130" stroke="#FF00E5" stroke-opacity="0.28" stroke-width="2" filter="url(#softGlow)"/>
+  </g>
 
   <g opacity="0.35">
     <circle cx="135" cy="95" r="4" fill="#00F5FF" filter="url(#glow)"/>
@@ -79,7 +86,7 @@
   </text>
 
   <text x="600" y="235" text-anchor="middle" fill="#D8F3FF" class="mono subtitle" filter="url(#glow)">
-    FULL-STACK DEVELOPER • BACKEND LEARNER • 3D MOTION DESIGNER
+    FULL-STACK DEVELOPER | BACKEND LEARNER | 3D MOTION DESIGNER
   </text>
 
   <text x="600" y="270" text-anchor="middle" fill="#00FFB2" class="mono mini" filter="url(#glow)">
