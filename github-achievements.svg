@@ -1,0 +1,109 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#18223F"/>
+      <stop offset="50%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <linearGradient id="glass" x1="130" y1="48" x2="1070" y2="282">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="45%" stop-color="#111827" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.78"/>
+    </linearGradient>
+
+    <linearGradient id="stroke" x1="130" y1="48" x2="1070" y2="282">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.85"/>
+      <stop offset="32%" stop-color="#00F5FF" stop-opacity="0.7"/>
+      <stop offset="67%" stop-color="#A855F7" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#FF00E5" stop-opacity="0.82"/>
+    </linearGradient>
+
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="28%" stop-color="#FDA4AF"/>
+      <stop offset="56%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#FFFFFF" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="shadow" x="70" y="10" width="1060" height="300" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000000" flood-opacity="0.48"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#00F5FF" flood-opacity="0.2"/>
+    </filter>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#93C5FD" stroke-opacity="0.1" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace; }
+      .title { font-size: 34px; font-weight: 800; letter-spacing: 2px; }
+      .label { font-size: 18px; font-weight: 800; letter-spacing: 1px; }
+      .copy { font-size: 14px; font-weight: 600; letter-spacing: .5px; }
+      .yolo { font-size: 39px; font-weight: 900; letter-spacing: 3px; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: .9; }
+        50% { transform: scale(1.04); opacity: 1; }
+      }
+      @keyframes sweep {
+        0% { transform: translateX(-280px) skewX(-18deg); opacity: 0; }
+        20% { opacity: .42; }
+        72% { opacity: .18; }
+        100% { transform: translateX(1120px) skewX(-18deg); opacity: 0; }
+      }
+      .float { animation: float 5.6s ease-in-out infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: 287px 166px; }
+      .sweep { animation: sweep 5.8s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="330" fill="url(#grid)"/>
+
+  <g opacity="0.72" filter="url(#glow)">
+    <circle class="float" cx="140" cy="78" r="48" fill="#00F5FF" fill-opacity="0.18"/>
+    <circle class="float" cx="1035" cy="244" r="54" fill="#FF00E5" fill-opacity="0.16"/>
+    <circle class="float" cx="1000" cy="72" r="36" fill="#00FFB2" fill-opacity="0.14"/>
+  </g>
+
+  <rect x="115" y="42" width="970" height="246" rx="30" fill="url(#glass)" stroke="url(#stroke)" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="138" y="64" width="924" height="56" rx="20" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="152" y="76" width="310" height="2" rx="1" fill="#FFFFFF" fill-opacity="0.44"/>
+  <rect class="sweep" x="-245" y="47" width="175" height="242" fill="url(#shine)" opacity="0.34"/>
+
+  <text x="600" y="98" text-anchor="middle" fill="#E0F2FE" class="mono title">ACHIEVEMENT UNLOCKED</text>
+
+  <g class="pulse">
+    <circle cx="287" cy="166" r="76" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="3"/>
+    <circle cx="287" cy="166" r="63" fill="url(#badge)" stroke="#FFFFFF" stroke-opacity="0.72" stroke-width="4"/>
+    <path d="M250 142C265 125 285 133 287 153C289 133 309 125 324 142C343 164 320 195 287 207C254 195 231 164 250 142Z" fill="#FFFFFF" fill-opacity="0.78"/>
+    <path d="M257 157C268 144 281 151 287 166C293 151 306 144 317 157" stroke="#FF4FD8" stroke-width="7" stroke-linecap="round"/>
+    <text x="287" y="182" text-anchor="middle" fill="#FFFFFF" class="mono yolo" filter="url(#glow)">YOLO</text>
+  </g>
+
+  <text x="430" y="160" fill="#7DF9FF" class="mono label">GitHub Achievement</text>
+  <text x="430" y="195" fill="#E0F2FE" class="mono title">YOLO</text>
+  <text x="430" y="225" fill="#BAE6FD" class="mono copy">One achievement is visible on the profile, so this local card renders it directly.</text>
+  <text x="430" y="250" fill="#93C5FD" class="mono copy">No third-party trophy service required. No broken image fallback.</text>
+
+  <rect x="890" y="144" width="118" height="44" rx="14" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <text x="949" y="172" text-anchor="middle" fill="#00FFB2" class="mono label">1 / 1</text>
+</svg>

@@ -99,6 +99,16 @@ I also create **3D animation, motion graphics, and visual storytelling** with to
 
 <div align="center">
 
+## `> GLASS.CONTROL.DECK`
+
+<img src="./glass-control-deck.svg" width="100%" alt="Glassmorphism developer control deck" />
+
+</div>
+
+---
+
+<div align="center">
+
 ## `> ANIMATED.SIGNAL`
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=20&duration=1800&pause=500&color=00FFB2&center=true&vCenter=true&width=900&lines=Designing+interfaces+that+feel+fast+and+focused;Building+APIs+that+stay+clear+under+pressure;Turning+motion+design+ideas+into+interactive+systems;Learning+deeply%2C+shipping+carefully%2C+improving+daily" alt="Animated build focus typing line" />
@@ -291,9 +301,9 @@ Promotional videos, 3D animations, social media content, artist branding, album 
 
 <div align="center">
 
-## `> TROPHY.CACHE`
+## `> ACHIEVEMENTS.UNLOCKED`
 
-<img src="https://github-profile-trophy.vercel.app/?username=TanvirKhan77&theme=algolia&no-frame=true&row=1&column=6&margin-w=12&margin-h=12" alt="GitHub profile trophy board" />
+<img src="./github-achievements.svg" width="100%" alt="GitHub achievement card showing YOLO achievement" />
 
 </div>
 
