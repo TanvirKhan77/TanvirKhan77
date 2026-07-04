@@ -54,12 +54,6 @@ stack: Flutter, React, TypeScript, Firebase, Supabase, Spring Boot, PostgreSQL
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=TanvirKhan77&theme=tokyonight" alt="GitHub stats card" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TanvirKhan77&theme=tokyonight" alt="Repository language stats card" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TanvirKhan77&theme=tokyonight" alt="Most committed language card" />
-
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TanvirKhan77&theme=tokyonight" alt="GitHub profile summary details" />
-
 <img width="96%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Neon 3D GitHub contribution graph" />
 
 </div>
