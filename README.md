@@ -44,7 +44,7 @@ stack: Flutter, React, TypeScript, Firebase, Supabase, PostgreSQL
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=git,github,js,ts,dart,python,java,html,css,react,nextjs,vite,flutter,tailwind,nodejs,express,firebase,supabase,postgres,mysql,mongodb,postman,vercel,docker,linux,figma,blender,ae,ai,ps,pr,arduino,ableton&theme=dark&perline=17" alt="Skills: Git, GitHub, JavaScript, TypeScript, Dart, Python, Java, HTML, CSS, React, Next.js, Vite, Flutter, Tailwind CSS, Node.js, Express, Firebase, Supabase, PostgreSQL, MySQL, MongoDB, Postman, Vercel, Docker, Linux, Figma, Blender, After Effects, Illustrator, Photoshop, Premiere Pro, Arduino, Ableton, Nuke" />
+<img src="https://skillicons.dev/icons?i=git,github,js,ts,dart,python,java,html,css,react,nextjs,vite,flutter,tailwind,nodejs,express,firebase,supabase,postgres,mysql,mongodb,postman,vercel,docker,linux,figma,blender,ae,ai,ps,pr,arduino,ableton&theme=dark&perline=17" alt="Skills: Git, GitHub, JavaScript, TypeScript, Dart, Python, Java, HTML, CSS, React, Next.js, Vite, Flutter, Tailwind CSS, Node.js, Express, Firebase, Supabase, PostgreSQL, MySQL, MongoDB, Postman, Vercel, Docker, Linux, Figma, Blender, After Effects, Illustrator, Photoshop, Premiere Pro, Arduino, Ableton, Kontakt" />
 
 </div>
 
