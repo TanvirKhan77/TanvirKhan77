@@ -2,7 +2,7 @@
 
 <img src="./neon-terminal-banner.svg" width="96%" alt="Tanvir Ahmed Khan neon terminal banner" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2200&pause=650&color=00F5FF&center=true&vCenter=true&random=false&width=920&lines=Full-Stack+Developer+%7C+Flutter+%7C+React+%7C+Spring+Boot;Firebase+%7C+Supabase+%7C+PostgreSQL+%7C+REST+APIs;3D+Artist+%2B+Motion+Designer;Clean+systems.+Bold+visuals.+Useful+products." alt="Animated developer profile typing line" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=22&duration=2200&pause=650&color=00F5FF&center=true&vCenter=true&random=false&width=920&lines=Full-Stack+Developer+%7C+Flutter+%7C+React+%7C;Firebase+%7C+Supabase+%7C+PostgreSQL+%7C+REST+APIs;3D+Artist+%2B+Motion+Designer;Clean+systems.+Bold+visuals.+Useful+products." alt="Animated developer profile typing line" />
 
 <a href="mailto:ktanvir29@gmail.com">
   <img src="https://img.shields.io/badge/Email-ktanvir29%40gmail.com-020617?style=for-the-badge&logo=gmail&logoColor=00F5FF&labelColor=111827&color=7C3AED" alt="Email Tanvir Ahmed Khan" />
